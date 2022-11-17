@@ -1,0 +1,42 @@
+.header-cont {
+  width: 100%;
+  max-height: 95px;
+  background-color: rgba(1, 38, 65, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.header-row {
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-title {
+  color: var(--main-color);
+}
+.header-title span {
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 26px;
+  width: 40%;
+}
+.header-data {
+  color: var(--main-color);
+  font-family: "Mulish";
+  justify-content: space-between;
+  width: 33%;
+  font-weight: 600;
+  align-items: center;
+}
+.login {
+  background-color: var(--main-color);
+  padding: 9px 21px;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #071221;
+}

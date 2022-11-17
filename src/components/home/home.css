@@ -1,0 +1,65 @@
+.home-cont {
+  width: 100%;
+  height: 100%;
+}
+.home-wr {
+  background: url("/public/images/temple.png") no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.home-main-title {
+  width: 65%;
+}
+.home-main-title h1 {
+  font-family: "Cantata One";
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 98px;
+  font-style: normal;
+  color: var(--main-color);
+  margin: 0;
+}
+
+.home-main-title p {
+  font-family: "Mulish";
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--main-color);
+}
+.home-main-search {
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 47px;
+  height: 80px;
+  width: 60%;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 27px 94px -50px rgba(20, 32, 47, 0.5);
+  -webkit-backdrop-filter: blur(4.5px);
+  -moz-backdrop-filter: blur(4.5px);
+  backdrop-filter: blur(4.5px);
+}
+.home-main-search select {
+  padding: 16px 16px 16px 24px;
+  width: 475px;
+  height: 56px;
+  background-color: #f2f4f6;
+  outline: none;
+  border: none;
+  border-right: 16px solid transparent;
+}
+.home-search {
+  background-color: var(--main-button-color);
+  width: 139px;
+  height: 58px;
+  padding: 18px 40px 17px;
+  outline: none;
+  border: none;
+  max-height: 56px;
+  text-align: center;
+}
+.home-search span {
+  color: #fff;
+}

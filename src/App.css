@@ -1,0 +1,19 @@
+:root {
+  --header-color: #0126414d;
+  --header-color: #071221;
+  --main-color: #ffffff;
+  --main-button-color: #60b3d1;
+}
+#root {
+  height: 100vh;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
