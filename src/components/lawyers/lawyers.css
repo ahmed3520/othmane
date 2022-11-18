@@ -1,0 +1,57 @@
+.lawyers-list-wr {
+  width: 1117px;
+}
+.lawyers-list-category {
+  width: 304px;
+}
+.category-data {
+  max-width: 304px;
+  height: fit-content;
+}
+.lawyers-list-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+.category-title h1 {
+  font-family: var(--font-cantata);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #3e587a;
+}
+
+.category-data-item {
+  padding: 1px;
+  max-width: 304px;
+  height: 47px;
+  cursor: pointer;
+}
+.category-data-item p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 20px;
+  font-family: var(--font-mulish);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333c48;
+}
+.active-category {
+  background: #ecf1f6;
+}
+.active-category p {
+  color: #3e587a;
+}
+.lawyers-list-data {
+  margin-left: 40px;
+}
+.lawyers-list-data-numbers {
+  font-family: var(--font-mulish);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3e587a;
+}

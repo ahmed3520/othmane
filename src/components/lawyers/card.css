@@ -1,0 +1,166 @@
+.lw-card-cont {
+  width: 770px;
+  height: 402px;
+  background: var(--main-color);
+  box-shadow: 0px 4px 12px rgba(62, 88, 122, 0.08);
+  margin-bottom: 20px;
+}
+.lw-card-header {
+  display: flex;
+  margin-bottom: 24px;
+}
+.lw-card-wr {
+  padding: 20px;
+}
+.lw-card-header img {
+  width: 166px;
+  height: 209px;
+}
+.lw-image-header-data {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 544px;
+  height: 205px;
+}
+.lw-image-header-rating {
+  margin-top: 18.5px;
+}
+h6 {
+  margin: 0;
+}
+.lw-image-header-title h6 {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #071221;
+  margin-bottom: 12px;
+}
+.lw-image-header-service-type {
+  display: flex;
+  width: 174.04px;
+  height: 32px;
+  background: #ecf1f6;
+  border-radius: 50px;
+  align-items: center;
+}
+.lw-image-header-service-type h6 {
+  margin: 0;
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3e587a;
+}
+.lw-image-header-service-type img {
+  width: 8px;
+  height: 5px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+.Stars {
+  --percent: calc(var(--rating) / 5 * 100%);
+  display: inline-block;
+  font-size: var(--star-size);
+  font-family: Times;
+  line-height: 1;
+}
+.Stars::before {
+  content: "★★★★★";
+  letter-spacing: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--star-background) var(--percent),
+    var(--star-color) var(--percent)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lw-image-header-desc {
+  margin-top: 18.5px;
+}
+.lw-image-header-desc p {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #333c48;
+  margin: 0;
+}
+
+.readmore {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #3e587a;
+}
+hr {
+  color: #abc3dd;
+}
+.lawyer-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0;
+}
+.lawyer-location,
+.lawyer-phone {
+  display: flex;
+  align-items: center;
+}
+.lawyer-location span,
+.lawyer-phone span {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333c48;
+}
+.lawyer-footer {
+  display: flex;
+}
+.lawyer-footer-data {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lawyer-available span:nth-child(1) {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #333c48;
+}
+.lawyer-available span:nth-child(2) {
+  font-family: var(--font-mulish);
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3e587a;
+}
+.book-now {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+  text-decoration: none;
+  width: 240px;
+  height: 47px;
+  background: #60b3d1;
+}

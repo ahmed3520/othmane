@@ -9,6 +9,7 @@ import {
   NavLink,
 } from "react-router-dom";
 import Home from "../home/Home";
+import Lawyers from "../lawyers/Lawyers.jsx";
 /*
 import Footer from "../common/footer/Footer.jsx"
 import About from "../about/About"
@@ -23,10 +24,9 @@ const Pages = () => {
   return (
     <>
       <Router>
-        <Header />
-
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/find-lawyer" element={<Lawyers />} />
         </Routes>
       </Router>
     </>

@@ -6,6 +6,10 @@
   --main-button-color: #60b3d1;
   --font-mulish: "Mulish";
   --font-cantata: "Cantata One";
+  --star-size: 24px;
+  --star-height: 18.21px;
+  --star-color: #ecf1f6;
+  --star-background: #edc229;
 }
 #root {
   height: 100vh;
@@ -13,6 +17,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #f7f9fc;
 }
 .flex {
   display: flex;

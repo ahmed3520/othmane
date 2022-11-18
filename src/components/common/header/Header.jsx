@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-const Header = () => {
+const Header = ({ customClassName }) => {
   return (
-    <div className="flex header-cont">
+    <div className={`flex header-cont ${customClassName}`}>
       <div className="flex header-row">
         <div className="flex header-title">
           <span>Defendme</span>

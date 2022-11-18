@@ -1,0 +1,25 @@
+.search-cont {
+  width: 100%;
+  min-height: 117px;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-wr {
+  width: 1180px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-wr select {
+  padding: 16px 16px 16px 24px;
+  width: 489px;
+  height: 53px;
+  background-color: #ecf1f6;
+  outline: none;
+  border: none;
+  border-right: 16px solid transparent;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 
 const Category = ({ title, data, setFilter, filter }) => {
+  console.log(filter);
   return (
     <div className="category-data">
       <div className="category-title">
@@ -10,13 +11,12 @@ const Category = ({ title, data, setFilter, filter }) => {
         {data.map((item, index) => {
           return (
             <div
-              key={index}
               className={`category-data-item ${
-                filter == item.title ? "active-category" : null
+                filter == item.text ? "active-category" : null
               }`}
-              onClick={(e) => setFilter(item.title)}
+              onClick={(e) => setFilter(item.text)}
             >
-              <span>{data.text}</span>
+              <p key={index}>{item.text}</p>
             </div>
           );
         })}

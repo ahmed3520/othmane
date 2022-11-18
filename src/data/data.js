@@ -51,3 +51,17 @@ export const legalData = [
     title: "Family law",
   },
 ];
+
+export const lawyerCardData = {
+  index: 1,
+  image: "/images/lawyer.png",
+  name: "Leslie Alexander",
+  serviceType: "Legal consultancy",
+  numberOfReviews: 3,
+  phone: "(209) 555-0104",
+  location: "2715 Ash Dr. San Jose, South Dakota 83475",
+  nextAvailibility: "14/11/2022, 11:40",
+  rating: 4,
+  describtion:
+    "Lorem ipsum dolor sit amet consectetur. Velit non dignissim non fermentum. Ullamcorper adipiscing iaculis aliquam lobortis in scelerisque leo lobortis. Rhoncus nibh purus scelerisque ead moread moread moread moread mor.",
+};

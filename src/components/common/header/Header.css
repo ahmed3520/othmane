@@ -40,3 +40,7 @@
   text-decoration: none;
   color: #071221;
 }
+.dark-header {
+  background-color: #012641;
+  position: relative;
+}
