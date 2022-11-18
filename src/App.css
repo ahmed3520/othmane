@@ -1,8 +1,11 @@
 :root {
   --header-color: #0126414d;
   --header-color: #071221;
+  --second-dark-color: #012641;
   --main-color: #ffffff;
   --main-button-color: #60b3d1;
+  --font-mulish: "Mulish";
+  --font-cantata: "Cantata One";
 }
 #root {
   height: 100vh;

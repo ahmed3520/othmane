@@ -9,6 +9,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 .home-main-title {
   width: 65%;
@@ -58,8 +59,82 @@
   outline: none;
   border: none;
   max-height: 56px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .home-search span {
   color: #fff;
+}
+.card-cont {
+  display: flex;
+}
+
+.card-img {
+  width: 467px;
+  height: 345px;
+  background-color: #d4e7ee;
+}
+.container {
+  background-color: #f7f9fc;
+}
+@supports (display: grid) {
+  .main {
+    overflow: hidden !important;
+    color: #959595;
+    background-color: #f7f9fc;
+    grid-area: main;
+    padding: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 100px;
+    padding: 0 0px 0 200px;
+  }
+
+  .items {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .items.active {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+  }
+
+  .card-data-cont {
+    display: inline-block;
+  }
+  @media screen and (max-width: 500px) {
+    .card-data-cont {
+      min-height: 200px;
+      min-width: 200px;
+    }
+  }
+}
+.home-start-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 93px;
+  margin-bottom: 150px;
+}
+.home-start {
+  width: 176px;
+  height: 58px;
+  background-color: var(--main-button-color);
+  outline: none;
+  border: none;
+  color: var(--main-color);
 }

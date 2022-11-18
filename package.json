@@ -13,9 +13,13 @@
     "react-dates": "^21.8.0",
     "react-day-picker": "^8.3.5",
     "react-dom": "^18.2.0",
+    "react-horizontal-scrolling-menu": "^3.2.3",
     "react-icons": "^4.6.0",
+    "react-indiana-drag-scroll": "^3.0.1-alpha",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-use-draggable-scroll": "^0.4.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
