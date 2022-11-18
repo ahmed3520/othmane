@@ -10,15 +10,7 @@ import {
 } from "react-router-dom";
 import Home from "../home/Home";
 import Lawyers from "../lawyers/Lawyers.jsx";
-/*
-import Footer from "../common/footer/Footer.jsx"
-import About from "../about/About"
-import Pricing from "../pricing/Pricing"
-import Blog from "../blog/Blog"
-import Services from "../services/Services"
-import Contact from "../contact/Contact"
-import Description from "../book/Description"
-*/
+import Dashboard from "../dashboard/Dashboard.jsx";
 
 const Pages = () => {
   return (
@@ -27,6 +19,7 @@ const Pages = () => {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/find-lawyer" element={<Lawyers />} />
+          <Route exact path="/dashboard" element={<Dashboard />} />
         </Routes>
       </Router>
     </>
