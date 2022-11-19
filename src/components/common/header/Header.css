@@ -34,6 +34,8 @@
 }
 .login {
   background-color: var(--main-color);
+  display: flex;
+  align-items: center;
   padding: 9px 21px;
   height: 25px;
   text-align: center;
