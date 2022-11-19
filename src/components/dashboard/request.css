@@ -4,6 +4,13 @@
   box-shadow: 0px 4px 24px #ecf3fd;
   border-radius: 4px;
   width: 966px;
+  box-sizing: border-box;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px 0 20px;
+  margin-bottom: 16px;
 }
 .req-img img {
   width: 60px;
@@ -33,4 +40,64 @@
   font-size: 16px;
   line-height: 20px;
   color: #333c48;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.req-img {
+  display: flex;
+  align-items: center;
+}
+.req-date {
+  width: 168px;
+  height: 47px;
+}
+.req-img-data {
+  margin-left: 12px;
+}
+.req-img-data p {
+  margin: 0;
+}
+.refuse-btn {
+  margin-right: 24px;
+}
+.refuse-btn,
+.accept-btn {
+  box-sizing: border-box;
+  width: 137px;
+  height: 44px;
+  border: 1px solid #b2b8c2;
+  border-radius: 2px;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.refuse-btn span,
+.accept-btn span {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #071221;
+  margin-left: 8px;
+}
+.refuse-btn span {
+  color: #333c48;
+  opacity: 0.5;
+}
+.ref-icon,
+.acc-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 110, 119, 0.4);
+}
+.acc-icon {
+  background: rgba(18, 218, 182, 0.4);
 }

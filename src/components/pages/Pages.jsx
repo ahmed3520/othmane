@@ -11,7 +11,7 @@ import {
 import Home from "../home/Home";
 import Lawyers from "../lawyers/Lawyers.jsx";
 import Dashboard from "../dashboard/Dashboard.jsx";
-
+import Rendez from "../dashboard/Rendez-vous.jsx";
 const Pages = () => {
   return (
     <>
@@ -20,6 +20,7 @@ const Pages = () => {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/find-lawyer" element={<Lawyers />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
+          <Route exact path="/rendez-vous" element={<Rendez />} />
         </Routes>
       </Router>
     </>

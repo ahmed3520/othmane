@@ -1,0 +1,115 @@
+.renez-req-wr {
+  margin-top: 150px;
+}
+.renez-req-data-header {
+  display: flex;
+  align-items: center;
+}
+.renez-req-img {
+  width: 200px;
+  height: 200px;
+}
+.renez-req-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.renez-req-data-cont {
+  margin-left: 24px;
+}
+.renez-req-data {
+  margin-left: 48px;
+}
+.renez-req-data-cont p {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+  color: #071221;
+  margin-bottom: 12px;
+}
+.renez-req-data-cont p:nth-child(2) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333c48;
+}
+.renez-req-data-cont p:nth-child(3) {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #071221;
+  margin-bottom: 15px;
+}
+.renez-req-data-btns {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+.renez-req-data-btns svg {
+  width: 24px;
+  height: 24px;
+}
+.renez-req-data-body {
+  margin-top: 80px;
+}
+.renez-req-data-body h2 {
+  margin-bottom: 24px;
+  font-family: var(--font-cantata);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #012641;
+}
+
+.appointments-card {
+  align-items: center;
+  max-width: 930px;
+  height: 71px;
+  margin-bottom: 12px;
+}
+.appointments-card span {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333c48;
+  margin-right: 16px;
+}
+.card-data-cont-app {
+  max-width: 1000px;
+  align-items: center;
+  width: 900px;
+  height: 100%;
+  background: var(--main-color);
+  box-shadow: 0px 4px 24px #ecf3fd;
+  border-radius: 4px;
+}
+.card-data-cont-app p {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0;
+  width: 168px;
+  height: 23px;
+}
+
+.card-data-cont-app p:nth-child(1) {
+  margin-left: 32px;
+  margin-right: 40px;
+}
+
+.card-data-cont-app p:nth-child(3) {
+  font-family: var(--font-mulish);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333c48;
+}

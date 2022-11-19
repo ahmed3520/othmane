@@ -2,3 +2,110 @@
   width: 100%;
   height: 100%;
 }
+.dashboard-content {
+  width: 966px;
+  margin-left: 36px;
+}
+.dashboard-content-wr h2 {
+  font-family: var(--font-cantata);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+
+  /* 2_Dark */
+  color: #012641;
+}
+.dashboard-content-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+.dashboard-content-header-book {
+  text-decoration: none;
+  max-width: 256px;
+  max-height: 48px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: var(--main-button-color);
+}
+.dashboard-content-header-book-wr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 100%;
+  height: 24px;
+}
+.dashboard-content-header-book-wr span {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--main-color);
+  margin-left: 12px;
+}
+.dashboard-content-header-book-wr img {
+  width: 16px;
+  height: 16px;
+}
+.dashboard-content-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboard-content-calender {
+  background-color: var(--main-color);
+  width: 100%;
+  margin-left: 36px;
+}
+.dashboard-content-calender-wr {
+  padding-left: 32px;
+  padding-right: 80px;
+}
+.dashboard-content-calender-header {
+  width: 446px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.dashboard-content-calender-header-wr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 191px;
+}
+.user-img img {
+  border-radius: 50px;
+  object-fit: cover;
+  width: 48px;
+  height: 48px;
+}
+.user-data span {
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333c48;
+}
+.user-data p {
+  margin: 0;
+  margin-top: 4px;
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #071221;
+}
+.calender-cont {
+  max-width: 445px;
+  max-height: 439px;
+}

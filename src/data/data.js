@@ -65,3 +65,108 @@ export const lawyerCardData = {
   describtion:
     "Lorem ipsum dolor sit amet consectetur. Velit non dignissim non fermentum. Ullamcorper adipiscing iaculis aliquam lobortis in scelerisque leo lobortis. Rhoncus nibh purus scelerisque ead moread moread moread moread mor.",
 };
+
+export const rendezVousData = [
+  {
+    index: 1,
+    image: "/images/request_avatar.png",
+    name: "Cody Fisher",
+    location: "New York",
+    date: "October 30, 2017",
+    time: "01:00 PM",
+    appointments: [
+      {
+        index: 1,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+      {
+        index: 2,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+      {
+        index: 3,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+      {
+        index: 4,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+    ],
+  },
+  {
+    index: 2,
+    image: "/images/request_avatar.png",
+    name: "Cody Fisher",
+    location: "New York",
+    date: "October 30, 2017",
+    time: "01:00 PM",
+    appointments: [
+      {
+        index: 1,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+      {
+        index: 2,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+      {
+        index: 3,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+      {
+        index: 4,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+    ],
+  },
+  {
+    index: 3,
+    image: "/images/request_avatar.png",
+    name: "Cody Fisher",
+    location: "New York",
+    date: "October 30, 2017",
+    time: "01:00 PM",
+    appointments: [
+      {
+        index: 1,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+      {
+        index: 2,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+      {
+        index: 3,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+      {
+        index: 4,
+        date: "October 30, 2017",
+        time: "01:00 PM",
+        location: "New York",
+      },
+    ],
+  },
+];

@@ -1,5 +1,8 @@
 import React from "react";
 import "./request.css";
+import { ReactComponent as Refuse } from "../../assets/svg/forbidden.svg";
+import { ReactComponent as Right } from "../../assets/svg/correct.svg";
+
 const Request = ({ image, name, location, date, time }) => {
   return (
     <div className="flex req-cont">
@@ -16,12 +19,12 @@ const Request = ({ image, name, location, date, time }) => {
       </div>
       <div className="req-btns flex">
         <button className="refuse-btn">
-          <img src="/assets/redWrong.png" alt="refuse" />
+          <Refuse />
           <span>Refuse</span>
         </button>
         <button className="accept-btn">
-          <img src="/assets/greenRight.png" alt="Accept" />
-          <span>Refuse</span>
+          <Right />
+          <span>Accept</span>
         </button>
       </div>
     </div>

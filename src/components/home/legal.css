@@ -103,4 +103,10 @@
 
 .find-lw span {
   color: var(--main-color);
+  font-family: var(--font-mulish);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--main-color);
 }

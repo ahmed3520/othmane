@@ -4,6 +4,7 @@ import Category from "./Category";
 import Search from "./Search";
 import "./lawyers.css";
 import LawyerCard from "./Card";
+import { ReactComponent as PickDate } from "../../assets/svg/pickDate.svg";
 import { lawyerCardData } from "../../data/data";
 const Lawyers = () => {
   const [category, setCategory] = React.useState("All categories");
@@ -67,6 +68,32 @@ const Lawyers = () => {
               setFilter={setLanguage}
               filter={language}
             />
+            <div className="category-data">
+              <div className="category-title">
+                <h1>Availabilités</h1>
+              </div>
+              <div className="category-date-cont">
+                <span>A partir du</span>
+                <div className="category-date">
+                  <div className="flex category-date-wr">
+                    <PickDate />
+                    <p>Wed, Nov 16</p>
+                  </div>
+                </div>
+              </div>
+              <div className="category-date-cont date-to">
+                <span>Au</span>
+                <div className="category-date">
+                  <div className="flex category-date-wr">
+                    <PickDate />
+                    <p>Wed, Nov 16</p>
+                  </div>
+                </div>
+              </div>
+              <div className="btn-search-category">
+                <button>Search</button>
+              </div>
+            </div>
           </div>
           <div className="lawyers-list-data">
             <div className="lawyers-list-data-numbers">
