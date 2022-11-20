@@ -164,3 +164,120 @@ hr {
   height: 47px;
   background: #60b3d1;
 }
+
+@media screen and (max-width: 1180px) {
+  .lawyers-list-wr {
+    justify-content: space-between;
+  }
+  .lw-card-cont {
+    width: 650px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .lw-card-cont {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .lw-card-cont {
+    width: 540px;
+  }
+  .lw-image-header-desc p {
+    line-height: 20px;
+  }
+  .lw-card-wr {
+    padding: 10px;
+  }
+  .book-now {
+    width: 185px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .lw-card-cont {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .lw-image-header-rating,
+  .lw-image-header-desc {
+    margin-top: 10px;
+  }
+  .lawyer-contact {
+    margin: 10px 0;
+  }
+  .lawyer-location span,
+  .lawyer-phone span {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .book-now {
+    width: 147px;
+  }
+  .lawyer-available span {
+    font-size: 13px !important;
+  }
+  .lw-card-img {
+    width: 150px !important;
+    height: 200px !important;
+    object-fit: contain;
+  }
+  .lw-card-header {
+    margin-bottom: 43px;
+  }
+  .lawyer-location span,
+  .lawyer-phone span {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .lw-image-header-data {
+    width: 340px;
+  }
+  .lw-card-header {
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  .lw-card-img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+  }
+  .lw-image-header-data {
+    margin-left: 0;
+  }
+  .lw-image-header-desc {
+    width: 320px;
+  }
+  .lw-card-cont {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .lawyer-available {
+    margin-bottom: 10px;
+  }
+  .lw-card-img {
+  }
+  .lawyer-available span:nth-child(1) {
+    font-size: 18px !important;
+  }
+  .lawyer-footer-data {
+    flex-direction: column;
+  }
+  .lawyer-location span,
+  .lawyer-phone span {
+    font-size: 13px;
+  }
+  .lawyer-contact {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 360px) {
+  .lw-image-header-desc,
+  .lw-image-header-data {
+    width: 310px;
+  }
+}

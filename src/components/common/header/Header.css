@@ -46,3 +46,39 @@
   background-color: #012641;
   position: relative;
 }
+/*responsive media query*/
+@media screen and (max-width: 1600px) {
+  .header-row {
+    width: 95%;
+  }
+  .header-data {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .header-row {
+    width: 97%;
+  }
+  .header-data {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .header-row {
+    width: 97%;
+  }
+  .header-data {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header-data span {
+    display: none;
+  }
+  .login span {
+    display: block;
+  }
+  .header-data {
+    justify-content: flex-end;
+  }
+}

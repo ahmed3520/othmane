@@ -109,3 +109,109 @@ p {
   font-weight: 700;
   color: #071221;
 }
+
+@media screen and (max-width: 1850px) {
+  .sidebar-cont {
+    padding: 0px 37px 0 30px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .sidebar-cont {
+    padding: 0px 10px 0 10px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sidebar-menu li {
+    width: 185px;
+  }
+  .sidebar-wr {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .sidebar-menu ul li a span {
+    display: none;
+  }
+  .sidebar-menu li {
+    width: 60px;
+  }
+  .sidebar-cont-lower-wr-data,
+  .sidebar-cont-lower-logout p {
+    display: none;
+  }
+  .sidebar-menu ul li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar-menu ul li a svg {
+    margin: 0;
+  }
+  .sidebar-logo img {
+    width: 57px;
+    height: 18px;
+  }
+  .sidebar-cont-lower-wr {
+    justify-content: center;
+  }
+  .sidebar-cont-lower-logout {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sidebar-cont {
+    max-width: 100% !important;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    display: flex;
+  }
+  .sidebar-wr {
+    display: flex;
+    display: inherit;
+    flex-direction: row !important;
+    max-width: 100% !important;
+    position: absolute;
+    width: 100% !important;
+  }
+  .sidebar-logo {
+    display: none;
+  }
+  .sidebar-menu ul {
+    display: flex;
+    align-items: center;
+  }
+  .sidebar-menu {
+    margin-top: 0;
+  }
+  .sidebar-cont-lower-logout {
+    margin-top: 0;
+  }
+  .sidebar-cont-lower {
+    display: flex;
+    margin-bottom: 0;
+  }
+  .sidebar-cont-upper {
+    width: 100%;
+  }
+  .sidebar-menu {
+    max-width: 100% !important;
+  }
+  .sidebar-cont-lower {
+    width: 30%;
+    justify-content: space-between;
+  }
+  .sidebar-cont-lower-logout {
+    margin-right: 10px;
+  }
+  .sidebar-menu ul {
+    width: 80%;
+    justify-content: space-between;
+  }
+}

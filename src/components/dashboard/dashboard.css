@@ -64,7 +64,7 @@
 }
 .dashboard-content-calender-wr {
   padding-left: 32px;
-  padding-right: 80px;
+  padding-right: 40px;
 }
 .dashboard-content-calender-header {
   width: 446px;
@@ -108,4 +108,81 @@
 .calender-cont {
   max-width: 445px;
   max-height: 439px;
+}
+@media screen and (max-width: 1800px) {
+  .dashboard-content {
+    width: 900px;
+  }
+  .dashboard-content-calender-wr {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .dashboard-content {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .dashboard-content-calender-header {
+    width: 405px;
+  }
+  .dashboard {
+    justify-content: space-between;
+  }
+  .dashboard-content-calender {
+    width: 30%;
+  }
+  .dashboard-content {
+    margin-left: 0px;
+  }
+  .dashboard-content-calender {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .dashboard-content {
+    width: 600px;
+  }
+  .dashboard-content-calender-header {
+    width: 380px;
+  }
+  .dashboard-content-calender-wr {
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .dashboard-content-calender-header {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .dashboard-content-calender-header {
+    width: 285px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .dashboard-content-calender {
+    display: none;
+  }
+  .dashboard-content {
+    width: 85%;
+    margin-left: 15px;
+  }
+  .dashboard {
+    justify-content: unset;
+  }
+  .table-body-cont {
+    width: 100%;
+  }
+  .dashboard {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .dashboard-content {
+    width: 95%;
+  }
 }

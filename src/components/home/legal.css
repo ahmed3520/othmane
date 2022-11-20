@@ -110,3 +110,124 @@
   line-height: 23px;
   color: var(--main-color);
 }
+@media screen and (max-width: 1600px) {
+  .legal-header {
+    padding: 120px 100px 0 100px;
+  }
+  .legal-filter {
+    padding: 0 100px;
+  }
+  .legal-filter-sidebar {
+    width: 50%;
+  }
+  .legal-filter-data-cont {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .legal-header {
+    padding: 100px 50px 0 50px;
+  }
+  .legal-filter {
+    padding: 0 50px;
+  }
+  .legal-filter-sidebar {
+    width: 50%;
+  }
+  .legal-filter-data-cont {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .legal-header {
+    padding: 95px 10px 0 10px;
+  }
+  .legal-filter {
+    padding: 0 50px;
+  }
+  .legal-filter-sidebar {
+    width: 50%;
+  }
+  .legal-filter-data-cont {
+    width: 45%;
+  }
+  .legal-header-title h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .legal-header {
+    padding: 95px 10px 0 10px;
+  }
+  .legal-filter {
+    padding: 0 50px;
+  }
+  .legal-filter-sidebar {
+    width: 50%;
+  }
+  .legal-filter-data-cont {
+    width: 45%;
+  }
+  .legal-header-title h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .legal-header-data {
+    flex-direction: column;
+  }
+  .legal-header-p {
+    width: 100%;
+  }
+  .legal-header-p p {
+    max-width: 100%;
+  }
+  .active-side-filter .legal-filter-title p {
+    font-size: 26px;
+  }
+  .legal-filter {
+    padding: 0 10px;
+  }
+  .legal-filter-data-cont {
+    width: 50%;
+  }
+  .legal-filter-index p {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .legal-filter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .legal-filter-index p {
+    margin-right: 20px;
+  }
+  .active-side-filter .legal-filter-title p {
+    font-size: 36px;
+  }
+  .legal-filter-sidebar,
+  .legal-filter-data-cont {
+    width: 100%;
+  }
+  .legal-filter-data-slide {
+    margin-bottom: 30px;
+  }
+  .legal-wr {
+    height: max-content;
+  }
+  .legal-filter-data-cont p {
+    font-family: var(--font-mulish);
+  }
+}
+@media screen and (max-width: 400px) {
+  .legal-header-p p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .active-side-filter .legal-filter-title p {
+    font-size: 27px;
+  }
+}

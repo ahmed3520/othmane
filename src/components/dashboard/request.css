@@ -101,3 +101,48 @@
 .acc-icon {
   background: rgba(18, 218, 182, 0.4);
 }
+@media screen and (max-width: 1800px) {
+  .req-cont {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .req-cont {
+    padding: 0 20px 0 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .refuse-btn,
+  .accept-btn {
+    width: 100px;
+  }
+  .refuse-btn span,
+  .accept-btn span {
+    margin-left: 1px;
+  }
+}
+@media screen and (max-width: 715px) {
+  .req-date {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .refuse-btn {
+    margin-right: 5px;
+  }
+  .req-cont {
+    padding: 0 10px 0 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .req-btns {
+    flex-direction: column;
+  }
+  .refuse-btn {
+    margin-bottom: 5px;
+  }
+  .req-img img {
+    width: 40px;
+    height: 40px;
+  }
+}
