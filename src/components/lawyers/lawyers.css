@@ -135,6 +135,11 @@
     align-items: center;
     margin-left: 10px;
   }
+  .lawyers-list-data-numbers {
+    width: 95%;
+    display: flex;
+    justify-content: start;
+  }
 }
 @media screen and(max-width: 500px) {
   .lawyers-list-data {
@@ -142,5 +147,10 @@
   }
   .book-now {
     width: 240px;
+  }
+  .lawyers-list-data-numbers {
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
 }
