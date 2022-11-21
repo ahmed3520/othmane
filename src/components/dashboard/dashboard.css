@@ -3,8 +3,8 @@
   height: 100%;
 }
 .dashboard-content {
-  width: 966px;
-  margin-left: 36px;
+  width: 60%;
+  margin-left: 10px;
 }
 .dashboard-content-wr h2 {
   font-family: var(--font-cantata);
@@ -60,11 +60,8 @@
 .dashboard-content-calender {
   background-color: var(--main-color);
   width: 100%;
-  margin-left: 36px;
 }
 .dashboard-content-calender-wr {
-  padding-left: 32px;
-  padding-right: 40px;
 }
 .dashboard-content-calender-header {
   width: 446px;
@@ -109,20 +106,38 @@
   max-width: 445px;
   max-height: 439px;
 }
+.dashboard {
+  max-width: 100%;
+  justify-content: space-between;
+}
+.dashboard-content-calender {
+  width: 30%;
+}
+.dashboard-content-calender-wr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-content-footer {
+  width: 96%;
+}
+.dashboard-content-calender-res {
+}
 @media screen and (max-width: 1800px) {
   .dashboard-content {
-    width: 900px;
+    width: 60%;
   }
   .dashboard-content-calender-wr {
     padding-right: 0;
   }
   .dashboard-content {
-    margin-left: 292px;
+    margin-left: 265px;
   }
 }
 @media screen and (max-width: 1700px) {
   .dashboard-content {
-    width: 750px;
+    width: 55%;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -143,12 +158,14 @@
 
 @media screen and (max-width: 1500px) {
   .dashboard-content {
-    width: 600px;
+    width: 50%;
   }
   .dashboard-content-calender-header {
     width: 380px;
   }
   .dashboard-content-calender-wr {
+    width: -moz-fit-content;
+    width: fit-content;
     padding-left: 5px;
   }
 }
@@ -162,6 +179,7 @@
 }
 @media screen and (max-width: 1150px) {
   .dashboard-content {
+    width: 60%;
     margin-left: 100px;
   }
 }

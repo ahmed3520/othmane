@@ -105,19 +105,21 @@ const Dashboard = () => {
       </div>
       <div className="dashboard-content-calender">
         <div className="dashboard-content-calender-wr">
-          <div className="dashboard-content-calender-header">
-            <div className="dashboard-content-calender-header-wr">
-              <div className="user-img">
-                <img src="/images/lawyer.png" alt="user" />
-              </div>
-              <div className="user-data flex flex-col">
-                <span>By good morning, </span>
-                <p>Leslie Alexander</p>
+          <div className="dashboard-content-calender-res">
+            <div className="dashboard-content-calender-header">
+              <div className="dashboard-content-calender-header-wr">
+                <div className="user-img">
+                  <img src="/images/lawyer.png" alt="user" />
+                </div>
+                <div className="user-data flex flex-col">
+                  <span>By good morning, </span>
+                  <p>Leslie Alexander</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="calender-cont">
-            <Calendar data={data} />
+            <div className="calender-cont">
+              <Calendar data={data} />
+            </div>
           </div>
         </div>
       </div>

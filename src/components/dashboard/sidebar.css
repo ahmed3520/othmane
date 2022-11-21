@@ -1,7 +1,7 @@
 .sidebar-cont {
   max-width: 280px;
   height: 100%;
-  padding: 0px 37px 0 80px;
+  padding: 0px 30px 0 40px;
   background-color: var(--main-color);
   box-shadow: 10px 0px 30px rgba(229, 234, 239, 0.5);
 }
@@ -112,7 +112,7 @@ p {
 
 @media screen and (max-width: 1850px) {
   .sidebar-cont {
-    padding: 0px 37px 0 30px;
+    padding: 0px 27px 0 16px;
   }
   .sidebar-cont {
     position: fixed;
