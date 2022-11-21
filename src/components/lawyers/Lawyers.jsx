@@ -6,6 +6,7 @@ import "./lawyers.css";
 import LawyerCard from "./Card";
 import { ReactComponent as PickDate } from "../../assets/svg/pickDate.svg";
 import { lawyerCardData } from "../../data/data";
+import Footer from "../common/footer/Footer";
 const Lawyers = () => {
   const [category, setCategory] = React.useState("All categories");
   const [language, setLanguage] = React.useState("English");
@@ -135,6 +136,7 @@ const Lawyers = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

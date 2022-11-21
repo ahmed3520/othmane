@@ -55,3 +55,13 @@
 .active-rendez .rendez-card-wr .rendez-card-data p:nth-child(2) {
   color: #ecf1f6;
 }
+@media screen and (max-width: 1100px) {
+  .rendez-card-cont {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .rendez-card-cont {
+    width: 100%;
+  }
+}

@@ -6,6 +6,7 @@ import useDrag from "../common/useDrag";
 import { useDraggable } from "react-use-draggable-scroll";
 import LegalInfo from "./LegalInfo";
 import Header from "../common/header/Header";
+import Footer from "../common/footer/Footer";
 const Home = () => {
   function handleSearch(e) {
     e.preventDefault();
@@ -80,6 +81,7 @@ const Home = () => {
           </main>
         </div>
         <LegalInfo />
+        <Footer />
       </div>
     </>
   );

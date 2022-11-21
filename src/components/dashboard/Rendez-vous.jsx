@@ -8,10 +8,16 @@ import RequestData from "./RequestData";
 
 const Rendez = () => {
   const [filter, setFilter] = React.useState(rendezVousData[0]?.index);
+  const [back, setBack] = React.useState(true);
+  console.log("filter==>", back);
   return (
-    <div className="dashboard flex">
+    <div className="dashboard rebdez-dashboard flex">
       <SideBar />
-      <div className="rendez-vous-cont flex flex-col">
+      <div
+        className={`rendez-vous-cont flex flex-col
+      ${!back && "active-rendez-main"}
+      `}
+      >
         <div className="dashboard-content-header">
           <Link to={"/"} className="dashboard-content-header-book">
             <div className="dashboard-content-header-book-wr">
@@ -23,12 +29,33 @@ const Rendez = () => {
         <h2>Rendez-vous</h2>
         <div className="rendez-vous-wr flex flex-col">
           {rendezVousData.map((data, index) => (
-            <Card data={data} setFilter={setFilter} filter={filter} />
+            <Card
+              data={data}
+              setFilter={setFilter}
+              filter={filter}
+              back={back}
+              setBack={setBack}
+              key={index}
+            />
           ))}
         </div>
       </div>
-      <div className="rendex-vous-appointments">
-        <RequestData index={filter} data={rendezVousData} />
+      <div
+        className={`rendex-vous-appointments ${
+          back ? "rendex-vous-appointments-back" : ""
+        }`}
+      >
+        <div
+          className={`back-btn ${back == true && "active-back-btn"}`}
+          onClick={() => setBack(!back)}
+        ></div>
+
+        <RequestData
+          index={filter}
+          data={rendezVousData}
+          back={back}
+          setBack={setBack}
+        />
       </div>
     </div>
   );

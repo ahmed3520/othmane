@@ -1,10 +1,16 @@
 import React from "react";
 import "./cardRendez.css";
-const Card = ({ data, setFilter, filter }) => {
+const Card = ({ data, setFilter, filter, back, setBack }) => {
+  function handleOnClick(e) {
+    e.preventDefault();
+    setFilter(data?.index);
+    setBack(!back);
+  }
   return (
     <div
-      className={`rendez-card-cont ${data?.index == filter && "active-rendez"}`}
-      onClick={(e) => setFilter(data?.index)}
+      className={`rendez-card-cont ${data?.index == filter && "active-rendez"}
+    `}
+      onClick={(e) => handleOnClick(e)}
     >
       <div className="rendez-card-wr">
         <div className="rendez-card-img">

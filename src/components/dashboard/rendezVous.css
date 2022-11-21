@@ -6,3 +6,31 @@
   background-color: var(--main-color);
   margin-left: 24px;
 }
+@media screen and (max-width: 1800px) {
+  .rebdez-dashboard {
+    justify-content: space-between;
+  }
+  .rendez-vous-cont {
+    margin-left: 313px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .rendez-vous-cont {
+    margin-left: 240px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .rendez-vous-cont {
+    margin-left: 110px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .rendez-vous-cont {
+    margin-left: 4px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .active-rendez-main {
+    display: none;
+  }
+}

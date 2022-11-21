@@ -9,6 +9,12 @@ const Footer = () => {
           <div className="social-media-logo insta"></div>
           <div className="social-media-logo linkedin"></div>
         </div>
+        <div className="footer-logo">
+          <p>Defendme</p>
+        </div>
+        <div className="footer-copy-rights">
+          <p>© 2022 Defendme. all rights reserved.</p>
+        </div>
       </div>
     </div>
   );

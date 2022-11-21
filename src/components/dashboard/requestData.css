@@ -113,3 +113,130 @@
   line-height: 20px;
   color: #333c48;
 }
+.back-btn {
+  background-image: url("data:image/svg+xml,%3Csvg width=%2725%27 height=%2725%27 viewBox=%270 0 25 25%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath fill-rule=%27evenodd%27 clip-rule=%27evenodd%27 d=%27M4.7097 11.8871L4.79289 11.7929L9.79289 6.79289C10.1834 6.40237 10.8166 6.40237 11.2071 6.79289C11.5676 7.15338 11.5953 7.72061 11.2903 8.1129L11.2071 8.20711L7.915 11.5H19.5C20.0523 11.5 20.5 11.9477 20.5 12.5C20.5 13.0128 20.114 13.4355 19.6166 13.4933L19.5 13.5H7.915L11.2071 16.7929C11.5676 17.1534 11.5953 17.7206 11.2903 18.1129L11.2071 18.2071C10.8466 18.5676 10.2794 18.5953 9.8871 18.2903L9.79289 18.2071L4.79289 13.2071C4.43241 12.8466 4.40468 12.2794 4.7097 11.8871Z%27 fill=%27%23012641%27/%3E%3C/svg%3E%0A");
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 1800px) {
+  .rendex-vous-appointments {
+    width: 700px;
+  }
+  .renez-req-wr {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .renez-req-data {
+    margin-left: 20px;
+  }
+  .rendex-vous-appointments {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .card-data-cont-app {
+    max-width: 444px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .renez-req-img {
+    width: 100px;
+    height: 100px;
+  }
+  .card-data-cont-app p {
+    font-size: 15px;
+    width: 134px;
+  }
+  .card-data-cont-app p:nth-child(1) {
+    margin: 0;
+  }
+  .card-data-cont-app {
+    max-width: 370px;
+  }
+  .renez-req-data {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .back-btn {
+    display: block;
+  }
+  .rendex-vous-appointments-back {
+    display: none;
+  }
+
+  .rendex-vous-appointments {
+    width: 89%;
+    position: absolute;
+  }
+  .rendex-vous-appointments {
+    margin-left: 95px;
+  }
+  .card-data-cont-app {
+    max-width: 100%;
+  }
+  .card-data-cont-app {
+    width: 70%;
+  }
+  .card-data-cont-app p {
+    font-size: 16px;
+    width: 30%;
+  }
+  .rendez-vous-cont {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .rendex-vous-appointments {
+    width: 87%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .rendex-vous-appointments {
+    margin: 10px;
+  }
+  .rendex-vous-appointments {
+    width: 98%;
+  }
+  .renez-req-wr {
+    margin-top: 50px;
+    margin-bottom: 2em;
+  }
+  .card-data-cont-app {
+    width: 90%;
+  }
+  .card-data-cont-app p {
+    width: 35%;
+  }
+  .rendez-vous-cont {
+    width: 97%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rendex-vous-appointments {
+    width: 97%;
+  }
+  .card-data-cont-app p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .renez-req-data-cont p:nth-child(3) {
+    font-size: 15px;
+  }
+  .card-data-cont-app p:nth-child(1) {
+    font-size: 12px;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .renez-req-data-cont p:nth-child(3) {
+    font-size: 13px;
+  }
+}

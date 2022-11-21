@@ -3,7 +3,7 @@ import "./requestData.css";
 import { ReactComponent as Delete } from "../../assets/svg/trash.svg";
 import { ReactComponent as Edit } from "../../assets/svg/edit.svg";
 import { ReactComponent as Add } from "../../assets/svg/add.svg";
-const RequestData = ({ index, data }) => {
+const RequestData = ({ index, data, back, setBack }) => {
   const val = data.filter((data) => data?.index == index);
   console.log("reqdata==>", val);
   return (
