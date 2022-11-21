@@ -19,7 +19,7 @@ const SideBar = () => {
       <div className="sidebar-wr">
         <div className="sidebar-cont-upper">
           <div className="sidebar-logo">
-            <img src="/assets/logo.png" alt="logo" border="0" />
+            <img src="/assets/Logo.png" alt="logo" border="0" />
           </div>
           <div className="sidebar-menu">
             <ul>

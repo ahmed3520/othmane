@@ -61,6 +61,7 @@
   max-height: 56px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .home-search span {
   color: #fff;

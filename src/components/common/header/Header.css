@@ -19,18 +19,21 @@
   color: var(--main-color);
 }
 .header-title span {
-  font-family: "Mulish";
+  font-family: var(--font-mulish);
   font-weight: 700;
   font-size: 26px;
   width: 40%;
 }
 .header-data {
   color: var(--main-color);
-  font-family: "Mulish";
+  font-family: var(--font-mulish);
   justify-content: space-between;
   width: 33%;
   font-weight: 600;
   align-items: center;
+}
+.header-data span {
+  cursor: pointer;
 }
 .login {
   background-color: var(--main-color);
